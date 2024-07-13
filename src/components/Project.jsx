@@ -35,7 +35,7 @@ const Project = () => {
       img: project4,
       name: "My Portfolio",
       github_link: "https://github.com/gajonedev/my_portfolio",
-      live_link: "https://gajonedevporfolio.netlify.app",
+      live_link: "https://gajonedevportfolio.netlify.app",
       languages: "ReactJS - TailwindCSS",
     },
   ];
