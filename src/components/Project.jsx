@@ -35,7 +35,7 @@ const Project = () => {
       img: project4,
       name: "My Portfolio",
       github_link: "https://github.com/gajonedev/my_portfolio",
-      live_link: "https://gajonedev_porfolio.vercel.app",
+      live_link: "https://gajonedevporfolio.netlify.app",
       languages: "ReactJS - TailwindCSS",
     },
   ];
@@ -76,18 +76,24 @@ const Project = () => {
                     alt={project.name}
                     className="rounded-lg"
                   />
-                  <h3 className="text-slate-700 text-xl mt-4">{project.name}</h3>
-                  <div className="text-[15px] text-slate-500 mb-3">{project.languages}</div>
+                  <h3 className="text-slate-700 text-xl mt-4">
+                    {project.name}
+                  </h3>
+                  <div className="text-[15px] text-slate-500 mb-3">
+                    {project.languages}
+                  </div>
                   <div className="flex gap-3 items-center">
                     <a
                       href={project.github_link}
-                      className="font-bold text-rose-600 bg-slate-800 px-2 py-1 inline-block rounded-md" target="_blank"
+                      className="font-bold text-rose-600 bg-slate-800 px-2 py-1 inline-block rounded-md"
+                      target="_blank"
                     >
                       Github
                     </a>
                     <a
                       href={project.live_link}
-                      className="font-bold text-rose-600" target="_blank"
+                      className="font-bold text-rose-600"
+                      target="_blank"
                     >
                       Live Demo
                     </a>
