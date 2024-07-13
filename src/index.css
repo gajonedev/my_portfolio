@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply font-Poppins scroll-smooth;
+}
+
+body {
+  @apply box-border bg-gray-100 text-slate-600;
+}
+
+.btn-primary {
+  @apply bg-rose-500 font-semibold text-slate-100 mx-0 rounded-full py-3 px-6 flex items-center gap-2 hover:shadow-lg shadow-slate-400 transition-shadow;
+}
+
+.aboutImg:after {
+  @apply content-[""] w-full left-0 top-0 rounded-xl rotate-12 h-full absolute bg-slate-600 -z-10;
+}
+
+.swiper-pagination-bullet {
+  @apply bg-rose-500;
+}
+
+.input, .textarea {
+  @apply bg-slate-200 outline-none rounded-lg p-3;
+}
+
+::placeholder {
+  @apply text-lg;
+}
